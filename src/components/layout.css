@@ -19,8 +19,10 @@ a{
 }
 
 .HeroGroup {
-  margin: 0px auto;
   max-width: 500px;
+  margin: 0 auto;
+  padding: 150px 50px;
+  
 }
 
 .Hero h1 {
@@ -31,8 +33,20 @@ a{
 }
 
 .Hero p {
+  margin: 40px 0px 40px 0px;
   font-size: 24px;
   line-height: 20px;
   color: rgba(255,255,255, 0.7);
+}
+
+.Hero a {
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  background: #1741DB;
+  padding: 13px 27px;
+  border: 2px solid #3762F5;
+  border-radius: 27px;
 }
 
