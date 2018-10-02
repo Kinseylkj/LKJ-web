@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="26px" viewBox="0 0 29 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <rect id="Rectangle-4" fill="#73F8FF" x="0" y="0" width="4" height="26"></rect>
+            <path d="M12.2,4.33333333 L12.2,21.6666667 L16.4,21.6666667 C21.0391919,21.6666667 24.8,17.7864678 24.8,13 C24.8,8.21353217 21.0391919,4.33333333 16.4,4.33333333 L12.2,4.33333333 Z M8,21.6666667 L12.2,21.6666667 L12.2,4.33333333 L8,4.33333333 L8,0 L16.4,0 C23.3587878,0 29,5.82029825 29,13 C29,20.1797017 23.3587878,26 16.4,26 L8,26 L8,21.6666667 Z" id="Rectangle-5" fill="#50A3FF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

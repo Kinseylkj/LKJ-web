@@ -1,0 +1,18 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    z-index: 100;
+}
+
+.HeaderGroup {
+    max-width: 590px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 194px 146px 154px 97px;
+    align-items: center;
+}
+
+.Header a {
+    color: white;
+}

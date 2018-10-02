@@ -7,21 +7,22 @@ body {
 
 a{
   color: #1B28A8;
+  font-weight: 600;
   text-decoration: none;
 }
 
 .Hero {
   background: url('../images/background.png');
-  height: 800px;
+  height: 1080px;
   background-size: cover;
   background-position: center;
-  margin: 0;
 }
 
 .HeroGroup {
-  max-width: 500px;
+  max-width: 473px;
   margin: 0 auto;
-  padding: 150px 50px;
+  padding: 160px 50px;
+  align-items: center;
   
 }
 
@@ -33,7 +34,7 @@ a{
 }
 
 .Hero p {
-  margin: 40px 0px 40px 0px;
+  margin: 50px 0px 40px 0px;
   font-size: 24px;
   line-height: 20px;
   color: rgba(255,255,255, 0.7);

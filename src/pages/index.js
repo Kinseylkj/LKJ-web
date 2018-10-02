@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 const IndexPage = () => (
-  <div>
+  <Layout>
     <div className="Hero">
      <div className="HeroGroup">
        <h1>HELLOWORD</h1>
@@ -13,7 +13,7 @@ const IndexPage = () => (
        <Link to="/page-2/">向我表白</Link>
      </div>
     </div>
-  </div>
+  </Layout>
 )
 
 export default IndexPage
