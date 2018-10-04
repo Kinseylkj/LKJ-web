@@ -19,10 +19,11 @@ a{
 }
 
 .HeroGroup {
-  max-width: 473px;
+  max-width: 496px;
   margin: 0 auto;
-  padding: 160px 50px;
+  padding: 200px 0 40px 0;
   align-items: center;
+  
   
 }
 
@@ -34,20 +35,48 @@ a{
 }
 
 .Hero p {
-  margin: 50px 0px 40px 0px;
-  font-size: 24px;
-  line-height: 20px;
-  color: rgba(255,255,255, 0.7);
+  margin: 50px 0px 30px 0px;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(255,255,255, 0.8);
+  letter-spacing: 1px;
 }
 
-.Hero a {
+.Hero button {
+  padding: 13px 18px;
   font-size: 17px;
-  font-weight: 400;
-  color: white;
-  text-transform: uppercase;
-  background: #1741DB;
-  padding: 13px 27px;
-  border: 2px solid #3762F5;
-  border-radius: 27px;
+  background: white;
+  border-radius: 2px;
+  border: none;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  color: #1741DB;
+  box-shadow: 0 4px 10px 0 rgba(14,31,74,0.20);
 }
+
+
+
+@media (max-width: 600px) {
+
+  .HeroGroup {
+  max-width: 496px;
+  margin: 0 auto;
+  padding: 120px 40px 40px 40px;
+  align-items: center;
+  }
+
+  .Hero h1 {
+    font-size: 50px;
+  }
+
+  .Hero p {
+    margin: 50px 0px 40px 0px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(255,255,255, 0.7);
+  }
+
+  }
+
 

@@ -6,13 +6,23 @@
 }
 
 .HeaderGroup {
-    max-width: 590px;
+    max-width: 620px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 194px 146px 154px 97px;
+    grid-template-columns: auto auto auto auto;
     align-items: center;
+    justify-items: center
 }
 
 .Header a {
     color: white;
+}
+
+@media (max-width: 600px) {
+    
+
+    .Header a {
+        font-size: 16;
+
+    }
 }
