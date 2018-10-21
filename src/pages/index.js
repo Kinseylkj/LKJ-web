@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
+import Card from '../components/card'
 
 const IndexPage = () => (
-  <Layout>
+  <div>
+    <Layout />
     <div className="Hero">
        <div className="HeroGroup">
          <h1>诶呦，<br />设计。</h1>
@@ -16,7 +17,7 @@ const IndexPage = () => (
        </div>
        <div className="HeroSvg">
          <svg width="974" height="846" viewBox="0 0 974 763"        fill="none" xmlns="http://www.w3.org/2000/svg">
-         <path fill="#5C7EE2">
+         <path fill="#2651CF">
          <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="20s" values="M0 258.649L503.637 -211L973.287 292.637L469.649 762.287L0 258.649Z;
 
          M0 125L396 0L666 239L366 657L0 125Z;
@@ -28,9 +29,11 @@ const IndexPage = () => (
          </path>
          </svg>
        </div>
+       <Card
+         title="澳门科技大学OA系统"
+         text="为澳门科技大学设计的OA系统，包括公文、文档、资讯、请假、加班等多个应用，已经上线。" />
     </div>
-
-  </Layout>
+  </div>
 )
 
 export default IndexPage
